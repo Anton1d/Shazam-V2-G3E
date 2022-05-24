@@ -1,0 +1,15 @@
+Bonjour Monsieur
+
+Voici le code du shazam MAIS quelques soucis doivent être régler
+
+Le code "EN THEORIE" Doit fonctionner cependant, un module nommé SYS (qui est un module qui met les musiques en sample) ne veut pas marcher. Je ne sais pas pouquoi??
+
+En tous cas voici les fichiers présent:
+-Main.py   ----> le fichier main 
+-peackpicker ---> Toutes les fonctions utilisées sont ici
+-tdft ---> Le CODE pour la transformée de Fourier
+-Fingerprint ----> Haschage et transformation des musiqu
+
+On met au début dans la liste songs et songnames nos musiques (en wav) et le nom de chaque musique puis on demande laquelle musique on veut trouver donc ici David Guetta TITANIUM
+et le code renvoie le nom de la musique trouvé dans la data base
+
